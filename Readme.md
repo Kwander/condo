@@ -9,8 +9,9 @@ Goals:
 - [+] Console commands
 - [+] Adding items
 - [+] Removing specific items
-- [ ] Refactoring code
-- [ ] Making the app portable and cross-platform available
+- [-] Refactoring code
+- [-] Making the app portable and cross-platform available
 
 How to launch it?
-- Just simply open main.rb file with Ruby interpreter (ruby main.rb)
+---------------
+Just simply open main.rb file with Ruby interpreter (ruby main.rb)
