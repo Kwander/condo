@@ -7,7 +7,14 @@ class Todo
   end
   
   def load_items()
-    file = File.open("todo.txt")
+    if File.file?("todo.txt")
+      file = File.open("todo.txt")
+    else
+      target = open("todo.txt", 'w')
+      target.close()
+      file = File.open("todo.txt")
+    end
+      
     
     file.each do |line|
       line.slice! "\n"
