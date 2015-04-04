@@ -1,9 +1,16 @@
-Todo list. A Ruby project
+ConDo. A Ruby project
 ==============
-The intention is to develop the most minimalistic
-todo application for learning purposes
+A tiny console based to-do application. Written in Ruby.
 
-[+] Reading, writing
-[+] Console commands
-[+] Adding items
-[+] Removing specific items
+
+
+Goals:
+- [+] Reading, writing
+- [+] Console commands
+- [+] Adding items
+- [+] Removing specific items
+- [ ] Refactoring code
+- [ ] Making the app portable and cross-platform available
+
+How to launch it?
+- Just simply open main.rb file with Ruby interpreter (ruby main.rb)
